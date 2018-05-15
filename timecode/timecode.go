@@ -36,7 +36,7 @@
 //
 // Timecode and edit rate are stored as a single 64bit integer for efficient
 // timecode handling and comparisons.
-package timecode
+package timecode /** import "trimmer.io/go-timecode/timecode" */
 
 import (
 	"database/sql/driver"
